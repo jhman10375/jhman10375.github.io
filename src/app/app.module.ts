@@ -33,6 +33,8 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ResumeComponent } from './Pages/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     WorkComponent,
     AwardsComponent,
     ActivitiesComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
@@ -68,6 +71,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbTooltipModule,
     MdbValidationModule,
     FlexLayoutModule,
+    PdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

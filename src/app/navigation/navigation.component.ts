@@ -9,6 +9,29 @@ export class NavigationComponent implements OnInit {
 
   constructor() { }
 
+  links = [
+    {
+      route:'home',
+      dispText:'Home'
+    },
+    {
+      route:'activities',
+      dispText:'Activities'
+    },
+    {
+      route:'awards',
+      dispText:'Awards'
+    },
+    {
+      route:'resume',
+      dispText:'Resume'
+    },
+    {
+      route:'work',
+      dispText:'Work'
+    }
+  ]
+
   ngOnInit(): void {
   }
 
