@@ -1,1 +1,72 @@
-<p>work works!</p>
+<div>
+    <mat-card-title>Kroger</mat-card-title>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div *ngFor="let items of Kroger" fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" >
+    <mat-card >
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      <h2>{{ items.Head }}</h2>
+      <mat-card-content>
+        <div [innerHTML]="items.Body"></div>
+    
+      </mat-card-content>
+    </mat-card>
+    </div>
+    </div>
+    </div>
+</div>
+<div  style="padding-left: 5% !important; padding-right: 5% !important;"><hr></div>
+<div style="padding-top: 2%">
+    <mat-card-title>The Jewish Community Center of Greater Columbus</mat-card-title>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div *ngFor="let items of JCC" fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" >
+    <mat-card >
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      <h2>{{ items.Head }}</h2>
+      <mat-card-content>
+        <div [innerHTML]="items.Body"></div>
+        
+      </mat-card-content>
+    </mat-card>
+    </div>
+    </div>
+    </div>
+</div>
+<div  style="padding-left: 5% !important; padding-right: 5% !important;"><hr></div>
+<div style="padding-top: 2%">
+    <mat-card-title>Private Work</mat-card-title>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div *ngFor="let items of Other" fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" >
+    <mat-card >
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      <h2>{{ items.Head }}</h2>
+      <mat-card-content>
+        <div [innerHTML]="items.Body"></div>
+        
+      </mat-card-content>
+    </mat-card>
+    </div>
+    </div>
+    </div>
+</div>
+<div  style="padding-left: 5% !important; padding-right: 5% !important;"><hr></div>
+<div style="padding-top: 2%">
+    <mat-card-title>Piada Italian Street Food</mat-card-title>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div *ngFor="let items of Piada" fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" >
+    <mat-card >
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      <h2>{{ items.Head }}</h2>
+      <mat-card-content>
+        <div [innerHTML]="items.Body"></div>
+        
+      </mat-card-content>
+    </mat-card>
+    </div>
+    </div>
+    </div>
+</div>
+<div  style="padding-left: 5% !important; padding-right: 5% !important;"><hr></div>

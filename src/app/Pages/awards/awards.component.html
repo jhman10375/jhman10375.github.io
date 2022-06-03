@@ -1,1 +1,14 @@
-<p>awards works!</p>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div *ngFor="let items of testText" fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" >
+    <mat-card >
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      <mat-card-title>{{ items.Head }}</mat-card-title>
+      <mat-card-content>
+        <div [innerHTML]="items.Body"></div>
+        <!-- <p>My name is Jordan Herman, and I am currently an undergraduate student at the University of Cincinnati. I am currently majoring in computer engineering and minoring in computer science at the College of Engineering and Applied Science. My goal in life is to digitally create the future and bring as many people with me as possible. My action statement is, "The more the Marrier", this statement helps me to seek to meet as many people as possible and educate those I meet on the uses and benefits that the digital age has to offer. Along the way I hope to work on different engineering and design teams to create the future. I picture a future that looks like Marty McFly’s (from Back to the Future) future with hover boards, holograms, flying autonomous cars, etc. My goal with computer engineering is to help innovate the digital world and make access to information even easier than it already is.</p> -->
+      </mat-card-content>
+    </mat-card>
+    </div>
+    </div>
+    </div>

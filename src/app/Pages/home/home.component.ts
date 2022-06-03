@@ -39,6 +39,10 @@ export class HomeComponent implements OnInit {
           text:'Awards'
         },
         {
+          link:'resume',
+          text:'Resume'
+        },
+        {
           link:'work',
           text:'Work'
         }
